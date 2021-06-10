@@ -1,4 +1,27 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+Steps:
+1. Download XAMPP version(7.3.7) or higher
+2. Intsall XAMPP -- Make sure your PHP version is 7.3 or higher
+3. Create a new folder name "ecommerce" in "C:\xampp\htdocs"
+4. Download ZIP file of this project and extract "C:\xampp\htdocs\ecommerce"
+5. Now, go to "http://localhost/phpmyadmin/"
+6. Create new Database and name it "ecommerce"
+7. Go to Import(http://localhost/phpmyadmin/db_import.php?db=ecommerce), choose "ecommerce.sql" file from this project and click on Go at bottom
+8. Open https://mailtrap.io/ create account and then login, copy your credentials
+9. Now, from this project open .env file in notepad
+10. Go to ->
+            MAIL_DRIVER=smtp
+            MAIL_HOST=smtp.mailtrap.io
+            MAIL_PORT=2525
+            MAIL_USERNAME=
+            MAIL_PASSWORD=
+            MAIL_ENCRYPTION=
+11. Paste credentials here
+12. Now, you are ready to go, open http://localhost/ecommerce/
+13. For Administrator pannel, open http://localhost/ecommerce/admin
+
+admin - admin@clicktocart.com     123456789
+user  - kevindesai034@gmail.com   123456789 
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
